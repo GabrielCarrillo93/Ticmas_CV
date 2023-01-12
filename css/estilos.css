@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
-   
-    border: 1px solid black;
+    font-family: Georgia, 'Times New Roman', Times, serif;  
 }
 
 body{
@@ -18,7 +17,6 @@ header{
 
 h1{
     text-align: center;
-    border: 1px solid black;
     width: 75%;
     float: right;
     padding: 20px;
@@ -31,7 +29,20 @@ h2{
 nav{
     width: 75%;
     float: right;
+    border-radius: 5px;
+    padding: 2px;
 }
+
+button{
+    border-radius: 5px;
+    padding: 2px; 
+    background-color: #a0deee;
+    border-style: none;
+}
+
+
+    
+
 
 #header{
     float: right;
@@ -45,28 +56,26 @@ nav{
 
 #profile{
     padding: 5px;
-    border: 1px solid black;
     margin: 10px;
-    border: 1px solid black;
     width: 20%;
     height: auto;
     margin-left: 2%;
+    
 }
 
 aside{
     width: 23%;
     float: left;
-    border: 1px solid black;
     height: 1200px;
     margin: 1%;
     padding: 5px;
     background-color: #efcfd4;
+    border-radius: 15px;
 }
 
 main{
     width: 73%;
     float: left;
-    border: 1px solid black;
     margin: 1%;
     padding: 5px;
 }
@@ -79,6 +88,14 @@ ul{
     list-style: none;
 }
 
-h2{
-    font-family: Georgia, 'Times New Roman', Times, serif;
+section{
+    background-color: #efcfd4;
+    border-radius: 15px;
+    margin: 5px;
+    padding: 10px;
+
+}
+
+footer{
+    float: left;
 }
