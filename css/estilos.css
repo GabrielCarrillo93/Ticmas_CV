@@ -21,56 +21,62 @@
     padding: 5px;
   }
 
-  img{
-    width: 100%;
-    height: auto;
-    background-color: #FFD1DC;
-    border-radius: 35px;
-  }
-
-  body{
-    margin-left: 10%;
-    margin-right: 10%;
-    background-color: #ffeff2
-  }
+img{
+  width: 100%;
+  height: auto;
+  background-color: #FFD1DC;
+  border-radius: 35px;
+  padding: 5px;
+}
+body{
+margin-left: 10%;
+margin-right: 10%;
+background-color: #ffeff2
+}
   
-  #nombre{
-    text-align: center;
-    background-color: #FFD1DC
-  }
+#nombre{
+  text-align: center;
+  background-color: #FFD1DC
+}
 
-  nav{
-    float: right;
-    width: 100%;
-    background-color: #a0deee;
-    border-radius: 15px;
-  }
+nav{
+  float: right;
+  width: 100%;
+  border-radius: 15px;
+  background-color: #a0deee;
+}
 
-  button{
-    width: 18%;
-    float: right;
-    margin: 5px;
-    border-radius: 15px;
-  }
+button{
+  width: 18%;
+  float: right;
+  margin: 5px;
+  border-radius: 15px;
+  background-color:#FFD1DC
+}
 
-  a:link{
-    text-decoration: none;
-    color: black;
-  }
+a:link{
+  text-decoration: none;
+  color: black;
+}
 
-  section{
-    background-color: #FFD1DC;
-    border-radius: 25px;
-    padding: 20px;
-  }
+a:visited{
+  text-decoration: none;
+  color: black;
+}
 
-  div{
-    
-    border-radius: 25px;
-    padding: 5px;
-  }
+section{
+  background-color: #FFD1DC;
+  border-radius: 25px;
+  padding: 20px;
+}
+
+div{   
+  border-radius: 25px;
+  padding: 5px;
+}
+
 #informacion{
-    height: 1200px;
+  height: 1200px;
 }
 
 dd{
@@ -96,4 +102,10 @@ abbr{
   width: auto;
   height: 16px;
   border-radius: 0px;
+}
+
+h2{
+  background-color: #a0deee;
+  border-radius: 15px;
+  padding: 10px;
 }
