@@ -18,14 +18,14 @@
 
 [class*="col-"] {
     float: left;
-    padding: 15px;
-    border: 1px solid red;
+    padding: 5px;
   }
 
   img{
     width: 100%;
     height: auto;
-    background-color: #FFD1DC
+    background-color: #FFD1DC;
+    border-radius: 35px;
   }
 
   body{
@@ -53,10 +53,14 @@
     border-radius: 15px;
   }
 
+  a:link{
+    text-decoration: none;
+    color: black;
+  }
+
   section{
     background-color: #FFD1DC;
     border-radius: 25px;
-    border: 1px solid red;
     padding: 10px;
   }
 
@@ -67,4 +71,19 @@
   }
 #informacion{
     height: 1200px;
+}
+
+dd{
+  margin-inline-start: 0%;
+  font-size: 14px;
+}
+
+aside{
+  background-color: #FFD1DC;
+  border-radius: 25px;
+  padding: 15px;
+}
+
+li{
+  list-style: none;
 }
