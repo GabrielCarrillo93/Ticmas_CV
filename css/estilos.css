@@ -3,6 +3,7 @@
     font-family: Georgia, 'Times New Roman', Times, serif;  
 }
 
+
 body{
        margin-top: 1%;
        margin-left: 10%;
@@ -13,6 +14,7 @@ body{
 header{
     padding: 5px;
     height: fit-content;  
+    font-family: 'Oswald', sans-serif;
 }
 
 h1{
@@ -20,6 +22,7 @@ h1{
     width: 75%;
     float: right;
     padding: 20px;
+    
 }
 
 h2{
@@ -27,22 +30,35 @@ h2{
 }
 
 nav{ 
-    width: 75%;
+    width: 100%;
     float: right;
     border-radius: 5px;
-    padding: 2px;
+    padding: 5px;
+    background-color: #a0deee;
+    align-items: center;
+    
 }
 
 button{
-    border-radius: 5px;
     padding: 2px; 
     background-color: #a0deee;
-    border-style: none;
+
+    width: 19%;
+    text-align: center;
+
+    padding: 10px;
+    margin: 1px;
+    grid-area: auto;
 }
 
+a:link{
+    text-decoration: none;
+    color: black;
+}
 
-    
-
+a:visited{
+    color: black;
+}
 
 #header{
     float: right;
@@ -60,7 +76,8 @@ button{
     width: 20%;
     height: auto;
     margin-left: 2%;
-    
+    background-color: #efcfd4;
+    border-radius: 25px;
 }
 
 aside{
@@ -73,15 +90,20 @@ aside{
     border-radius: 15px;
 }
 
-main{
-    width: 73%;
-    float: left;
-    margin: 1%;
+dt{
+    font-weight: bold;
     padding: 5px;
 }
 
 dd{
     margin-inline-start: 10px;
+}
+
+main{
+    width: 73%;
+    float: left;
+    margin: 1%;
+    padding: 5px;
 }
 
 ul{
