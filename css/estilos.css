@@ -61,7 +61,7 @@
   section{
     background-color: #FFD1DC;
     border-radius: 25px;
-    padding: 10px;
+    padding: 20px;
   }
 
   div{
@@ -86,4 +86,14 @@ aside{
 
 li{
   list-style: none;
+}
+
+abbr{
+  text-decoration: none;
+}
+
+.logo{
+  width: auto;
+  height: 16px;
+  border-radius: 0px;
 }
