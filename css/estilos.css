@@ -1,118 +1,70 @@
 * {
     box-sizing: border-box;
-    font-family: Georgia, 'Times New Roman', Times, serif;  
+    ;
 }
 
+.col-1 {width: 8.33%;}
+.col-2 {width: 16.66%;}
+.col-3 {width: 25%;}
+.col-4 {width: 33.33%;}
+.col-5 {width: 41.66%;}
+.col-6 {width: 50%;}
+.col-7 {width: 58.33%;}
+.col-8 {width: 66.66%;}
+.col-9 {width: 75%;}
+.col-10 {width: 83.33%;}
+.col-11 {width: 91.66%;}
+.col-12 {width: 100%;}
 
-body{
-       margin-top: 1%;
-       margin-left: 10%;
-       margin-right: 10%;
-       background-color: rgb(rgb(241, 240, 238), green, blue);
-}
-
-header{
-    padding: 5px;
-    height: fit-content;  
-    font-family: 'Oswald', sans-serif;
-}
-
-h1{
-    text-align: right;
-    float: inline-end;
-    width: 75%;
-    padding: 10px;
-    
-}
-
-h2{
-    padding: 5px;
-}
-
-nav{ 
-    width: 100%;
-    float: right;
-    border-radius: 5px;
-    padding: 5px;
-    background-color: #a0deee;
-    align-items: center;
-    
-}
-
-button{
-    padding: 2px; 
-    background-color: #a0deee;
-
-    width: 19%;
-    text-align: center;
-
-    padding: 10px;
-    margin: 1px;
-    grid-area: auto;
-}
-
-a:link{
-    text-decoration: none;
-    color: black;
-}
-
-a:visited{
-    color: black;
-}
-
-#header{
-    float: right;
-    padding: 25px;
-    width: 75%;
-    text-align: center;
-    margin: 10px;
-    border-radius: 25px;
-    background-color: #efcfd4;
-}
-
-#profile{
-    padding: 5px;
-    margin: 10px;
-    width: 20%;
-    height: auto;
-    margin-left: 2%;
-    background-color: #efcfd4;
-    border-radius: 25px;
-    margin-top: 4%;
-}
-
-aside{
-    width: 30%;
+[class*="col-"] {
     float: left;
-    height: 1200px;
-    margin: 1%;
-    padding: 5px;
-    background-color: #efcfd4;
-    border-radius: 15px;
-}
+    padding: 15px;
+    border: 1px solid red;
+  }
 
-dt{
-    font-weight: bold;
-    padding: 5px;
-}
+  img{
+    width: 100%;
+    height: auto;
+    background-color: #FFD1DC
+  }
 
-dd{
-    margin-inline-start: 10px;
-}
+  body{
+    margin-left: 10%;
+    margin-right: 10%;
+    background-color: #ffeff2
+  }
+  
+  #nombre{
+    text-align: center;
+    background-color: #FFD1DC
+  }
 
-ul{
-    list-style: none;
-}
-
-section{
-    background-color: #efcfd4;
-    border-radius: 15px;
-    margin: 5px;
-    padding: 10px;
-    width: 65%;
+  nav{
     float: right;
-    margin: 1%;
-   
+    width: 100%;
+    background-color: #a0deee;
+    border-radius: 15px;
+  }
 
+  button{
+    width: 18%;
+    float: right;
+    margin: 5px;
+    border-radius: 15px;
+  }
+
+  section{
+    background-color: #FFD1DC;
+    border-radius: 25px;
+    border: 1px solid red;
+    padding: 10px;
+  }
+
+  div{
+    
+    border-radius: 25px;
+    padding: 5px;
+  }
+#informacion{
+    height: 1200px;
 }
-
