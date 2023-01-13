@@ -19,7 +19,7 @@ header{
 
 h1{
     text-align: right;
-    float: right;
+    float: inline-end;
     width: 75%;
     padding: 10px;
     
@@ -78,10 +78,11 @@ a:visited{
     margin-left: 2%;
     background-color: #efcfd4;
     border-radius: 25px;
+    margin-top: 4%;
 }
 
 aside{
-    width: 23%;
+    width: 30%;
     float: left;
     height: 1200px;
     margin: 1%;
@@ -99,13 +100,6 @@ dd{
     margin-inline-start: 10px;
 }
 
-main{
-    width: 73%;
-    float: left;
-    margin: 1%;
-    padding: 5px;
-}
-
 ul{
     list-style: none;
 }
@@ -115,9 +109,10 @@ section{
     border-radius: 15px;
     margin: 5px;
     padding: 10px;
+    width: 65%;
+    float: right;
+    margin: 1%;
+   
 
 }
 
-footer{
-    float: left;
-}
