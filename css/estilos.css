@@ -100,8 +100,9 @@ abbr{
 
 .logo{
   width: auto;
-  height: 16px;
+  height: 30px;
   border-radius: 0px;
+  flood-opacity: 50%;
 }
 
 h2{
