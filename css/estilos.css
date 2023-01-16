@@ -101,12 +101,16 @@ abbr{
 .logo{
   width: auto;
   height: 30px;
-  border-radius: 0px;
-  flood-opacity: 50%;
 }
 
 h2{
   background-color: #a0deee;
   border-radius: 15px;
   padding: 10px;
+}
+#enlaces_varios{
+  background-color: #a0deee;
+  width: 80%;
+  padding: 20px;
+
 }
