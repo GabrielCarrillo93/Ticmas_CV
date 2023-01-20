@@ -38,10 +38,15 @@
     </style>
 </head>
 <body>
-    <script src="/js/script.js"></script>
+    
     <header class="col-12">
         <div class="col-3">
             <img src="https://images.squarespace-cdn.com/content/v1/59e5d996dc2b4a72ea60c9dc/1554833988306-SBDKETYLJ70WFCNJ2IZB/850_9556.jpg?format=1500w" alt="Foto de Ernesto Santana" id="profile">
+        </div>
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
         </div>
         <div class="col-9">
             <div id="nombre">
@@ -78,22 +83,7 @@
                     <dt>Teléfono</dt>
                     <dd>995-823-052</dd>
                     <dd>610-503-155(celular)</dd>
-                </dl>
-                <script type="text/javascript">
-                    function googleTranslateElementInit() {
-                        new google.translate.TranslateElement(
-                            {pageLanguage: 'en'},
-                            'google_translate_element'
-                        );
-                    }
-                </script>
-             
-                <script type="text/javascript"
-                        src="https://translate.google.com/translate_a/element.js?
-            cb=googleTranslateElementInit">
-                </script>
-              
-                
+                </dl>  
             </aside>
         </div>
         <div class="col-8">
@@ -165,7 +155,9 @@
                 </ul>
             </section>
         </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script src="/js/script.js"></script>
     </main>
-   
+    
 </body>
 </html>
