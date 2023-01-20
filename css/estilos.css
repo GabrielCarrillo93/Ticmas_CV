@@ -29,6 +29,7 @@ img{
   padding: 5px;
   cursor: pointer;
 }
+
 body{
 margin-left: 10%;
 margin-right: 10%;
@@ -76,9 +77,6 @@ div{
   padding: 5px;
 }
 
-#informacion{
-  height: 1200px;
-}
 
 dd{
   margin-inline-start: 0%;
@@ -108,12 +106,6 @@ h2{
   background-color: #a0deee;
   border-radius: 15px;
   padding: 10px;
-}
-#enlaces_varios{
-  background-color: #a0deee;
-  width: 80%;
-  padding: 20px;
-
 }
 
 #myBtn{
@@ -170,3 +162,10 @@ h2{
   font-family: 'Oswald', sans-serif;
   cursor: pointer;
 }
+
+.redes{
+  width: 20%;
+  height: auto;
+  padding: 5px;
+}
+
