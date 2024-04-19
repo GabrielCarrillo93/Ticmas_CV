@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/estilos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Proyecto Final Integrador</title>
+    <link rel="icon" href="https://images.squarespace-cdn.com/content/v1/59e5d996dc2b4a72ea60c9dc/1554833988306-SBDKETYLJ70WFCNJ2IZB/850_9556.jpg?format=1500w">
+    <style>
+        h1{
+            font-family: 'Oswald', sans-serif;
+            font-size: 60px;
+        }       
+        header a:link, h2{
+            font-family: 'Oswald', sans-serif;
+        }
+        dt{
+            font-family: 'Oswald', sans-serif;
+            font-size: 20px;
+        }
+        li{
+            font-family: 'Oswald', sans-serif;
+            font-weight: bold;
+            font-size: 20px;
+        }
+        dd, p{
+            font-family: 'Montserrat', sans-serif;
+            font-size: 16px;
+        }
+        
+    </style>
+</head>
+<body>
+    
+    <header class="col-12">
+        <div class="col-3">
+            <img src="https://images.squarespace-cdn.com/content/v1/59e5d996dc2b4a72ea60c9dc/1554833988306-SBDKETYLJ70WFCNJ2IZB/850_9556.jpg?format=1500w" alt="Foto de Ernesto Santana" id="profile">
+        </div>
+        <div id="myModal" class="modal">
+            <span class="close">&times;</span>
+            <img class="modal-content" id="img01">
+            <div id="caption"></div>
+        </div>
+        <div class="col-9">
+            <div id="nombre">
+                <h1>Ernesto Santana</h1>
+                <nav>  
+                    <button><a href="#estudios">Estudios</a></button>
+                    <button><a href="#experiencia">Experiencia</a></button>
+                    <button><a href="#idiomas">Idiomas</a></button>
+                    <button><a href="#otros">Otros Conocimientos</a></button>
+                    <button><a href="#aptitudes">Aptitudes</a></button>
+                </nav>
+            </div>
+        </div>
+    </header>
+   
+    
+    <main class="col-12">
+        <div class="col-4">
+            <aside id="informacion">
+                <h2>Información Personal</h2>
+                
+                <dl>
+                    <dt>Nacionalidad</dt>
+                    <dd>Español </dd>
+                    <dt>Domicilio</dt>
+                    <dd>Calle del Pez 2802, Gijón</dd>
+                    <dt>Fecha de nacimiento</dt>
+                    <dd>1989-05-05</dd>
+                </dl>
+                <h2>Información de contacto</h2>
+                <dl>
+                    <dt>Email</dt>
+                    <dd>e.santana@gmail.com</dd>
+                    <dt>Teléfono</dt>
+                    <dd>995-823-052</dd>
+                    <dd>610-503-155(celular)</dd>
+                </dl> 
+                
+                <h2>Redes sociales</h2>
+                <a href="https://ar.linkedin.com" target="_blank"><img  src="https://cdn-icons-png.flaticon.com/512/174/174857.png" alt="Linkedin" class="redes"></a> 
+                <a href="https://www.github.com" target="_blank"><img  src="https://cdn-icons-png.flaticon.com/512/25/25231.png" alt="GitHub" class="redes"></a>
+                <a href="https://www.twitter.com" target="_blank"><img  src="https://i.pinimg.com/originals/5c/a9/8c/5ca98c73b2bb7a02bf8350933c7ca443.png" alt="Twitter" class="redes"></a>
+                <a href="https://www.facebook.com" target="_blank"><img  src="https://cdn-icons-png.flaticon.com/512/124/124010.png" alt="Facebook" class="redes"></a>
+                
+            </aside>
+        </div>
+        <div class="col-8">
+            <section>
+                <h2 id="estudios">Estudios</h2>
+                <ul>
+                    <li>Universidad Politécnica de Madrid 2012-2014</li>
+                    <p>Máster Universitario en Ingeniería del Software/European Master in Software Engineering</p>
+                    <li>Universidad Politécnica de Madrid 2007-2011</li>
+                    <p>Grado en Ingeniería del Software. Habilitación profesional como Ingeniero Técnico en Informática</p>   
+                </ul>
+            </section>
+            <br>
+            <section>
+                <h2 id="experiencia">Experiencia</h2>
+                <ul>
+                    <li>2020-Actualidad</li>
+                    <p>Sr Fullstack en Google</p>
+                    <li>2017-2019</li>
+                    <p>Junior Front end Dev en Amazon</p>
+                    <li>2015-2017</li>
+                    <p>Junior Back End Dev en Accenture</p>
+                </ul>
+            </section>
+            <br>
+            <section>
+                <h2 id="idiomas">Idiomas</h2>
+                <ul>
+                    <li>Español Nativo</li>
+                    <li>Inglés Fluido</li>
+                    <p>B2 <abbr title="First Certificate in English">FCE</abbr> que certifica nivel intermedio-alto</p>
+                    <li>Francés Básico</li>
+                </ul>
+                <h2>Lenguajes de programación</h2>
+                <ul>
+                    <dl>
+                        <dt>Front End</dt>
+                            <dd>HTML5<img class="logo" src="https://w7.pngwing.com/pngs/390/229/png-transparent-logo-html5-brand-design-text-logo-number.png" alt="HTML5 Logo" ></dd>
+                            <dd>CSS3<img class="logo" src="https://w7.pngwing.com/pngs/509/571/png-transparent-cascading-style-sheets-logo-css3-html-web-development-world-wide-web-blue-angle-web-design.png" alt="CSS3 Logo" ></dd>
+                            <dd>Javascript<img class="logo" src="https://w7.pngwing.com/pngs/447/49/png-transparent-javascript-source-code-computer-programming-jquery-others.png" alt="JS Logo" ></dd>
+                        <dt>Back End</dt>
+                            <dd>Java<img class="logo" src="https://w7.pngwing.com/pngs/578/816/png-transparent-java-class-file-java-platform-standard-edition-java-development-kit-java-runtime-environment-coffee-jar-text-class-orange.png" alt="JavaLogo" ></dd>
+                            <dd>Python<img class="logo" src="https://w7.pngwing.com/pngs/585/822/png-transparent-python-scalable-graphics-logo-javascript-creative-dimensional-code-angle-text-rectangle-thumbnail.png" alt="Python Logo" ></dd>
+                            <dd>Ruby<img class="logo" src="https://w7.pngwing.com/pngs/535/618/png-transparent-ruby-on-rails-computer-programming-programming-language-ruby-angle-rectangle-logo.png" alt="Ruby Logo" ></dd>
+                            <dd>PHP<img class="logo" src="https://w7.pngwing.com/pngs/21/535/png-transparent-php-computer-icons-wordpress-text-trademark-logo.png" alt="PHP Logo" ></dd>
+                    </dl>
+                </ul>
+            </section>
+            <br>
+            <section>
+                <h2 id="otros"> Otros Conocimientos</h2>
+                <ul>
+                    <p>Manejo de paquete de Office avanzado</p>
+                    <p>CorelDraw intermedio</p>
+                    <p>Manejo de Open Office avanzado</p>
+                    <p>Manejo de GitHub avanzado</p>
+                </ul>
+            </section>
+            <br>
+            <section>
+                <h2 id="aptitudes">Aptitudes</h2>
+                <ul>
+                    <p>Proactvidad</p>
+                    <p>Trabajo en equipo</p>
+                    <p>Orientado al cumplimiento de objetivos</p>
+                    <p>Adaptabilidad</p>
+                    <p>Capaz de reconocer y enmendar errores</p>
+                    <p>Liderazgo</p>
+                </ul>
+            </section>
+        </div>
+        <button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
+        <script src="/js/script.js"></script>
+    </main>
+    
+</body>
+</html>
